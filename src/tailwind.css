@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* @font-face {
+    font-family: "Noto Sans KR";
+    font-style: normal;
+    font-weight: 100;
+    src: local(""),
+      url("./lib/font/noto-sans-kr-v25-latin_korean-100.woff2") format("woff2");
+  }
+  @font-face {
+    font-family: "Noto Sans KR";
+    font-style: normal;
+    font-weight: 300;
+    src: local(""),
+      url("./lib/font/noto-sans-kr-v25-latin_korean-300.woff2") format("woff2");
+  }
+  @font-face {
+    font-family: "Noto Sans KR";
+    font-style: normal;
+    font-weight: 400;
+    src: local(""),
+      url("./lib/font/noto-sans-kr-v25-latin_korean-regular.woff2")
+        format("woff2");
+  }
+  @font-face {
+    font-family: "Noto Sans KR";
+    font-style: normal;
+    font-weight: 500;
+    src: local(""),
+      url("./lib/font/noto-sans-kr-v25-latin_korean-500.woff2") format("woff2");
+  }
+  @font-face {
+    font-family: "Noto Sans KR";
+    font-style: normal;
+    font-weight: 700;
+    src: local(""),
+      url("./lib/font/noto-sans-kr-v25-latin_korean-700.woff2") format("woff2");
+  }
+  @font-face {
+    font-family: "Noto Sans KR";
+    font-style: normal;
+    font-weight: 900;
+    src: local(""),
+      url("./lib/font/noto-sans-kr-v25-latin_korean-900.woff2") format("woff2");
+  }
+  @font-face {
+    font-family: "Code";
+    font-style: normal;
+    font-weight: 100;
+    src: local(""),
+      url("./lib/font/D2Coding-Ver1.3.2-20180524.woff2") format("woff2");
+  } */
+  ::-webkit-scrollbar {
+    width: 1.3vw;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: #e2e8f0;
+  }
+  ::-webkit-scrollbar-track {
+    background-color: #94a3b8;
+  }
+  html {
+    overflow: hidden;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+}
